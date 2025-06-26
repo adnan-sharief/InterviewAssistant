@@ -10,7 +10,7 @@ import numpy as np
 from scipy.io import wavfile
 
 # === Configure Gemini API Key ===
-genai.configure(api_key="AIzaSyDnPvHWmppmxG51L88QziKp2LjOKPy-qd4")
+genai.configure(api_key="YOUR-API-KEY")
 model = genai.GenerativeModel(model_name="gemini-2.0-flash")
 
 # Speak the text using TTS (optional, not used in CLI)
